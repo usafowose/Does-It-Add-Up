@@ -1,0 +1,14 @@
+.title {
+    padding-left: 665px; 
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    color: pink;
+}
+.pink-this {
+    background-color: pink;
+    color: pink;
+}
+.pad-from-top {
+    padding-top: 15px;
+}
