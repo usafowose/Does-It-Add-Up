@@ -46,8 +46,6 @@ var randButtnVal2 = Math.floor(Math.random() * 25);
 var randButtnVal3 = Math.floor(Math.random() * 25);
 var randButtnVal4 = Math.floor(Math.random() * 25);
 
-
-
 // console.log(`1: ${randButtnVal1} \n 2: ${randButtnVal2} \n 3: ${randButtnVal3} \n 4: ${randButtnVal4}`);
 
 var assignVals = () => {
@@ -63,9 +61,6 @@ console.log($azuriteButton.attr('value'));
 console.log($flouriteButton.attr('value'));
 console.log($quartzButton.attr('value'));
 console.log($topazButton.attr('value'));
-
-
-
 
 $azuriteButton.on('click', () => {
     console.log($azuriteButton.attr('value'));
