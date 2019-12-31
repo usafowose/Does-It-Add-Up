@@ -26,12 +26,12 @@ var assignVals = () => {
 
 assignVals();
 
-$azuriteButton.on('click', () => {
-    console.log(userScore)
+    
+var addAzurite = () => {
     console.log($azuriteButton.attr('value'));
     userScore += parseFloat($azuriteButton.attr('value'));
     console.log(userScore);
     $userScoreDiv.text(userScore);
-    //    console.log(userScore)
-});
-console.log($azuriteButton.attr('value')); 
+}; 
+
+$azuriteButton.on('click', addAzurite); 
