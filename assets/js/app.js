@@ -34,4 +34,14 @@ var addAzurite = () => {
     $userScoreDiv.text(userScore);
 }; 
 
+var addFlourite = () => {    
+    console.log($flouriteButton.attr('value'));
+    userScore += parseFloat($flouriteButton.attr('value'));
+    console.log(userScore);
+    $userScoreDiv.text(userScore)
+}; 
+
+
 $azuriteButton.on('click', addAzurite); 
+
+
