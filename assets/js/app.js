@@ -39,7 +39,7 @@ var randValTwentyFive = Math.floor(Math.random() * 25) + 1;
 
 var buttonVals = [1, randValOne, randValTwo, randValThree, randValFour, randValFive, randValSix, randValSeven, randValEight, randValNine, randValTen, randValEleven, randValTwelve, randValThirteen, randValFourteen, randValFifteen, randValSixteen, randValSeventeen, randValEighteen, randValNineteen, randValTwenty, randValTwentyOne, randValTwentyTwo, randValTwentyThree, randValTwentyFour, randValTwentyFive];
 
-console.log(buttonVals); 
+console.log(buttonVals);
 
 var randButtnVal1 = Math.floor(Math.random() * 25);
 var randButtnVal2 = Math.floor(Math.random() * 25);
