@@ -65,75 +65,32 @@ console.log($topazButton.attr('value'));
 var buttonAttr = [$azuriteButton.attr('value'), $flouriteButton.attr('value'), $quartzButton.attr('value'), $topazButton.attr('value')];
 
 for (var i = 0; i < buttonAttr.length; i++) {
-    // console.log(buttonAttr[i]);
+    console.log(buttonAttr[i]);
     if (parseFloat(buttonAttr[i]) !== 1) {
         var whosNumberOne = Math.floor(Math.random() * 4);
         buttonAttr[whosNumberOne] = 1;
-        $azuriteButton.on('click', () => {
-            console.log($azuriteButton.attr('value'));
-            userScore += parseFloat($azuriteButton.attr('value'));
-            console.log(userScore);
-            $userScoreDiv.text(userScore);
-        });
 
-        $flouriteButton.on('click', () => {
-            userScore += parseFloat($flouriteButton.attr('value'));
-            $userScoreDiv.text(userScore);
-        });
-
-        $quartzButton.on('click', () => {
-            userScore += parseFloat($quartzButton.attr('value'));
-            $userScoreDiv.text(userScore);
-        });
-
-        $topazButton.on('click', () => {
-            userScore += parseFloat($topazButton.attr('value'));
-            $userScoreDiv.text(userScore);
-        });
-
-    } else {
-        $azuriteButton.on('click', () => {
-            console.log($azuriteButton.attr('value'));
-            userScore += parseFloat($azuriteButton.attr('value'));
-            console.log(userScore);
-            $userScoreDiv.text(userScore);
-        });
-
-        $flouriteButton.on('click', () => {
-            userScore += parseFloat($flouriteButton.attr('value'));
-            $userScoreDiv.text(userScore);
-        });
-
-        $quartzButton.on('click', () => {
-            userScore += parseFloat($quartzButton.attr('value'));
-            $userScoreDiv.text(userScore);
-        });
-
-        $topazButton.on('click', () => {
-            userScore += parseFloat($topazButton.attr('value'));
-            $userScoreDiv.text(userScore);
-        });
     }
 };
 
-// $azuriteButton.on('click', () => {
-//     console.log($azuriteButton.attr('value'));
-//     userScore += parseFloat($azuriteButton.attr('value'));
-//     console.log(userScore);
-//     $userScoreDiv.text(userScore);
-// });
+$azuriteButton.on('click', () => {
+    console.log($azuriteButton.attr('value'));
+    userScore += parseFloat($azuriteButton.attr('value'));
+    console.log(userScore);
+    $userScoreDiv.text(userScore);
+});
 
-// $flouriteButton.on('click', () => {
-//     userScore += parseFloat($flouriteButton.attr('value'));
-//     $userScoreDiv.text(userScore);
-// });
+$flouriteButton.on('click', () => {
+    userScore += parseFloat($flouriteButton.attr('value'));
+    $userScoreDiv.text(userScore);
+});
 
-// $quartzButton.on('click', () => {
-//     userScore += parseFloat($quartzButton.attr('value'));
-//     $userScoreDiv.text(userScore);
-// });
+$quartzButton.on('click', () => {
+    userScore += parseFloat($quartzButton.attr('value'));
+    $userScoreDiv.text(userScore);
+});
 
-// $topazButton.on('click', () => {
-//     userScore += parseFloat($topazButton.attr('value'));
-//     $userScoreDiv.text(userScore);
-// }); 
+$topazButton.on('click', () => {
+    userScore += parseFloat($topazButton.attr('value'));
+    $userScoreDiv.text(userScore);
+}); 
